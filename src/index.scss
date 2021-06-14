@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  text-align: center;
+  height: 120vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media (min-width:600px) and (max-width:2000px){
+  .parent{
+    border-radius: 150px !important;
+  }
+  .main_div {
+    width: 40%;
+    background-color: rgb(68, 66, 66);
+    margin: auto;
+    display: block;
+    border-radius: 15px;
+    .child {
+      background-color: grey;
+      text-align: center;
+      border-radius: 15px;
+      .h1 {
+        text-decoration: underline black;
+        text-transform: uppercase;
+        font-size: 2.2em;
+      }
+    }
+  }
+  .child2 {
+    // background-color: rgb(149, 212, 149);
+    padding: 1%;
+    text-align: right;
+    margin:3% 1% 5% 1%;
+  }
+  .child3 {
+    font-size: 3em;
+    width: 100%;
+    .signs{
+      margin-left:5%;
+      text-align: center;
+  
+      .A{
+        padding: 3%;
+        background-color:black;
+        border: none;
+        color: white;
+        font-size: 0.5em;
+        width: 13%;
+      }
+      
+    }
+  }
+  .numbers {
+    text-align: center;
+    display: grid;
+    grid-template-columns:33.3% 33.3% 33.3%;
+    padding:4%;
+    span {
+      background-color: black;
+      border: 1.5px solid rgba(0, 0, 0, 0.8);
+      padding: 1%;
+      font-size: 1em;
+      font-weight: 400;
+      text-align: center;
+      margin:3%;
+      border-radius: 30%;
+      button{
+        background-color: transparent;
+        border: none;
+        font-size: 1.3em;
+        color: white;
+      }
+    }
+  }
+  .clearbtn{
+    display: block !important;
+    width: 286%;
+  }
+}
+.A{
+  padding: 3%;
+  background-color:black;
+  border: none;
+  color: black;
+  font-size: 0.6em;
+  width: 13%;
+  border-radius:40% ;
+background-color:rgb(75, 75, 211) !important ;
+}
+#clearbtn{
+  display: block !important;
+  width: 286%;
+  border-radius: 100px;
+  background-color:rgb(75, 75, 211) !important;
+}
+
+
+                    // mobile view
+
+
+
+@media (max-width:600px){
+  .main_div {
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    display: block;
+    background-color: rgb(68, 66, 66);
+
+    .child {
+      background-color: grey;
+      text-align: center;
+      h1 {
+        text-transform: uppercase;
+        font-size: 2.2em;
+      }
+    }
+  }
+  .child2 {
+    background-color: rgb(149, 212, 149);
+    padding: 1%;
+    text-align: right;
+    margin:5% 1% 5% 1%;
+    background-color: rgb(68, 66, 66);
+
+  }
+  .child3 {
+    font-size: 3em;
+    width: 100%;
+    background-color: rgb(68, 66, 66);
+
+    .signs{
+      margin-left:5%;
+      text-align: center;
+      
+      
+      .A{
+        padding: 3%;
+        background-color:black;
+        border: none;
+        color: black;
+        font-size: 0.6em;
+        width: 13%;
+        border-radius:40% ;
+      background-color:rgb(75, 75, 211) !important ;
+
+      }
+      
+    }
+  }
+  .numbers {
+    text-align: center;
+    display: grid;
+    grid-template-columns:33.3% 33.3% 33.3%;
+    
+    background-color: rgb(68, 66, 66);
+    padding:4%;
+    span {
+      background-color: black;
+      border: 1.5px solid rgba(0, 0, 0, 0.8);
+      padding: 1%;
+      font-size: 1em;
+      font-weight: 400;
+      text-align: center;
+      margin:3%;
+      border-radius: 30%;
+      button{
+        background-color: transparent;
+        border: none;
+        font-size: 1.3em;
+        color: white;
+      }
+    }
+  }
+  #clearbtn{
+    display: block !important;
+    width: 286%;
+    border-radius: 100px;
+    background-color:rgb(75, 75, 211) !important;
+  }
+}
+.B{
+  margin-left: -0.3% !important;
+}
+.C{
+  margin-left: 0% !important;
+  display: block;
+  
+}
